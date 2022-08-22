@@ -17,6 +17,6 @@ dotnet add MyFirstRepository.csproj reference ../Library/Library.csproj
 git add src
 git commit -m "Aquí estoy subiendo el proyecto"
 git push
-git add comandos
+git add comandos.txt
 git commit -m "Aqui estoy subiendo el historial de comandos"
 git push
