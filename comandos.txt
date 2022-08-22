@@ -1,0 +1,22 @@
+mkdir miPrimerGit
+cd miPrimerGit
+git clone https://github.com/jimagrini/Hola-Mundo.git
+cd Hola-Mundo
+(Aquí cree el archivo README.md con mi nombre Juan Magrini)
+git add README.md
+git commit -m "Commit inicial"
+git config --global user.email "juan.magrini@correo.ucu.edu.uy"
+git config --global user.name "jimagrini"
+git push
+mkdir src
+cd src
+dotnet new console -n myFirstRepository
+dotnet new classlib -n Library
+cd MyFirstRepository
+dotnet add MyFirstRepository.csproj reference ../Library/Library.csproj
+git add src
+git commit -m "Aquí estoy subiendo el proyecto"
+git push
+git add comandos
+git commit -m "Aqui estoy subiendo el historial de comandos"
+git push
