@@ -8,6 +8,7 @@ git commit -m "Commit inicial"
 git config --global user.email "juan.magrini@correo.ucu.edu.uy"
 git config --global user.name "jimagrini"
 git push
+(pull desde visual studio y adicion de :tada:)
 mkdir src
 cd src
 dotnet new console -n myFirstRepository
